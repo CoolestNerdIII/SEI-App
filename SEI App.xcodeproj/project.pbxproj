@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		96A1E4921F1BFEC60055562D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4911F1BFEC60055562D /* AppDelegate.swift */; };
-		96A1E4941F1BFEC60055562D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4931F1BFEC60055562D /* FirstViewController.swift */; };
-		96A1E4961F1BFEC60055562D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4951F1BFEC60055562D /* SecondViewController.swift */; };
 		96A1E4991F1BFEC60055562D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A1E4971F1BFEC60055562D /* Main.storyboard */; };
 		96A1E49B1F1BFEC60055562D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A1E49A1F1BFEC60055562D /* Assets.xcassets */; };
 		96A1E49E1F1BFEC60055562D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A1E49C1F1BFEC60055562D /* LaunchScreen.storyboard */; };
+		96A1E4A61F1C34490055562D /* PaulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4A51F1C34490055562D /* PaulViewController.swift */; };
+		96A1E4AA1F1C37A20055562D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4A91F1C37A20055562D /* MainViewController.swift */; };
+		96A1E4AC1F1C406C0055562D /* CelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4AB1F1C406C0055562D /* CelineViewController.swift */; };
+		96A1E4AE1F1C41FA0055562D /* DomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1E4AD1F1C41FA0055562D /* DomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96A1E48E1F1BFEC60055562D /* SEI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A1E4911F1BFEC60055562D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96A1E4931F1BFEC60055562D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		96A1E4951F1BFEC60055562D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		96A1E4981F1BFEC60055562D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96A1E49A1F1BFEC60055562D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A1E49D1F1BFEC60055562D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A1E49F1F1BFEC60055562D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A1E4A51F1C34490055562D /* PaulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaulViewController.swift; sourceTree = "<group>"; };
+		96A1E4A91F1C37A20055562D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		96A1E4AB1F1C406C0055562D /* CelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelineViewController.swift; sourceTree = "<group>"; };
+		96A1E4AD1F1C41FA0055562D /* DomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				96A1E4911F1BFEC60055562D /* AppDelegate.swift */,
-				96A1E4931F1BFEC60055562D /* FirstViewController.swift */,
-				96A1E4951F1BFEC60055562D /* SecondViewController.swift */,
 				96A1E4971F1BFEC60055562D /* Main.storyboard */,
 				96A1E49A1F1BFEC60055562D /* Assets.xcassets */,
 				96A1E49C1F1BFEC60055562D /* LaunchScreen.storyboard */,
 				96A1E49F1F1BFEC60055562D /* Info.plist */,
+				96A1E4A51F1C34490055562D /* PaulViewController.swift */,
+				96A1E4A91F1C37A20055562D /* MainViewController.swift */,
+				96A1E4AB1F1C406C0055562D /* CelineViewController.swift */,
+				96A1E4AD1F1C41FA0055562D /* DomViewController.swift */,
 			);
 			path = "SEI App";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A1E4961F1BFEC60055562D /* SecondViewController.swift in Sources */,
+				96A1E4AC1F1C406C0055562D /* CelineViewController.swift in Sources */,
+				96A1E4AE1F1C41FA0055562D /* DomViewController.swift in Sources */,
+				96A1E4AA1F1C37A20055562D /* MainViewController.swift in Sources */,
+				96A1E4A61F1C34490055562D /* PaulViewController.swift in Sources */,
 				96A1E4921F1BFEC60055562D /* AppDelegate.swift in Sources */,
-				96A1E4941F1BFEC60055562D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 				96A1E4A41F1BFEC60055562D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
